@@ -4,9 +4,17 @@
         <servlet-name>validarusuarioSVT</servlet-name>
         <servlet-class>controlador.servlet.validarusuarioSVT</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>funcionesSVT</servlet-name>
+        <servlet-class>controlador.servlet.funcionesSVT</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>validarusuarioSVT</servlet-name>
         <url-pattern>/validarusuarioSVT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>funcionesSVT</servlet-name>
+        <url-pattern>/funcionesSVT</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
